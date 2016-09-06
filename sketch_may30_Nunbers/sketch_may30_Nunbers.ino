@@ -86,11 +86,11 @@ void loop()
 
   //draw framework (resolution)
   stepperX.step(270);
-    stepperY.step(160);
-    stepperX.step(-270);
-    stepperY.step(-160);
-    delay(200);
-  
+  stepperY.step(160);
+  stepperX.step(-270);
+  stepperY.step(-160);
+  delay(200);
+
   //go to place
   go(200, 140);
   delay(200);
@@ -178,11 +178,7 @@ void loop()
   stepperX.step(30);
   stepperX.step(-30);
 
-    go(-40, -50);
-
-
-
-
+  go(-40, -50);
 
   digitalWrite(coila1, HIGH);
   digitalWrite(coila2, LOW);
