@@ -31,8 +31,6 @@ void setup() {
 // the loop function runs over and over again forever
 void loop() {
 
-  ;
-
   digitalWrite(8, HIGH);
   delay(400);              // wait for a second
   digitalWrite(8, LOW);
@@ -79,7 +77,6 @@ void loop() {
 
      digitalWrite(i, LOW);    // turn the LED off by making the voltage LOW
      delay(10);              // wait for a second
-
     }
 /*
     for (int i = 6; i < 14 ; i++) {
